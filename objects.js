@@ -11,3 +11,8 @@ export default function pick (data, param) {
   }
   return result;
 }
+
+pick(data, ['user']); // { user: 'ubuntu' }
+pick(data, ['user', 'os']); // { user: 'ubuntu', os: 'linux' }
+pick(data, []); // {}
+pick(data, ['none', 'cores']); // { cores: 4 }
