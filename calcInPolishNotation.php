@@ -52,7 +52,7 @@ function calcInPolishNotation(array $array)
 }
 
 
-// TESTS
+//  TESTS
 
 // <?php
 // 
